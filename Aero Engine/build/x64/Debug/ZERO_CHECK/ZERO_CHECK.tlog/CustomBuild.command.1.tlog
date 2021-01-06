@@ -1,0 +1,10 @@
+^L:\AERO-ENGINE\AERO ENGINE\BUILD\CMAKEFILES\E9562C628B9ECBEDDB538BAC4ED90129\GENERATE.STAMP.RULE
+setlocal
+C:\CMake\bin\cmake.exe "-SL:/Aero-Engine/Aero Engine" "-BL:/Aero-Engine/Aero Engine/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "L:/Aero-Engine/Aero Engine/build/Aero Engine.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

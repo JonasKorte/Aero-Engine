@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="L:\Aero-Engine\Aero Engine\build\CMakeFiles\e9562c628b9ecbeddb538bac4ed90129\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EDE085FF-FCCD-34E0-9C4A-0E29D5B96E81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

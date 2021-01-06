@@ -2,4 +2,8 @@
 
 project ("Aero Engine")
 
-add_subdirectory ("Aero Editor")
+add_subdirectory ("AeroCore")
+
+add_executable(Aero main.cpp)
+
+install(TARGETS Aero DESTINATION "${CMAKE_SOURCE_DIR}/out/build/win64/")
