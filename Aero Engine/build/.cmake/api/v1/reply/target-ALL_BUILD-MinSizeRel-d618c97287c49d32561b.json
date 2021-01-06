@@ -17,10 +17,13 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "Aero::@6890427a1f51a3e7e1df"
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"id" : "libcore::@b550788d156340ab1c2e"
+		},
+		{
+			"id" : "Aero::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",

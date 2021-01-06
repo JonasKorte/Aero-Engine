@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "L:/Aero-Engine/Aero Engine/build"
+			"value" : "L:/Aero-Engine/Aero Engine/build/AeroCore"
 		},
 		{
 			"name" : "Aero Engine_SOURCE_DIR",
@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "L:/Aero-Engine/Aero Engine"
+			"value" : "L:/Aero-Engine/Aero Engine/AeroCore"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",

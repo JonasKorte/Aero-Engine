@@ -2,10 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/Aero.exe"
+			"path" : "AeroCore/Release/libcore.dll"
 		},
 		{
-			"path" : "Release/Aero.pdb"
+			"path" : "AeroCore/Release/libcore.lib"
+		},
+		{
+			"path" : "AeroCore/Release/libcore.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -13,12 +16,12 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"install"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt"
+			"AeroCore/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -28,13 +31,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 7,
+				"line" : 5,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 9,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -46,6 +49,12 @@
 			[
 				{
 					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "libcore_EXPORTS"
 				}
 			],
 			"language" : "CXX",
@@ -61,14 +70,18 @@
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "Aero::@6890427a1f51a3e7e1df",
+	"id" : "libcore::@b550788d156340ab1c2e",
 	"install" : 
 	{
 		"destinations" : 
 		[
 			{
 				"backtrace" : 2,
-				"path" : "L:/Aero-Engine/Aero Engine/out/build/win64"
+				"path" : "L:/Aero-Engine/Aero Engine/out/bin/win64"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "L:/Aero-Engine/Aero Engine/out/bin/win64"
 			}
 		],
 		"prefix" : 
@@ -81,11 +94,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO",
 				"role" : "flags"
 			},
 			{
@@ -95,12 +104,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Aero",
-	"nameOnDisk" : "Aero.exe",
+	"name" : "libcore",
+	"nameOnDisk" : "libcore.dll",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "AeroCore",
+		"source" : "AeroCore"
 	},
 	"sourceGroups" : 
 	[
@@ -117,9 +126,9 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "AeroCore/core.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "SHARED_LIBRARY"
 }

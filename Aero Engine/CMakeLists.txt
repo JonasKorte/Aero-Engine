@@ -6,4 +6,4 @@ add_subdirectory ("AeroCore")
 
 add_executable(Aero main.cpp)
 
-install(TARGETS Aero DESTINATION "${CMAKE_SOURCE_DIR}/out/build/win64/")
+install(TARGETS Aero DESTINATION "${CMAKE_SOURCE_DIR}/out/bin/win64/")

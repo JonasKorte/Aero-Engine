@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/Aero.exe"
+			"path" : "Debug/Aero.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/Aero.pdb"
+			"path" : "Debug/Aero.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  "
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  "
 				}
 			],
 			"language" : "CXX",
@@ -68,7 +68,7 @@
 		[
 			{
 				"backtrace" : 2,
-				"path" : "L:/Aero-Engine/Aero Engine/out/build/win64"
+				"path" : "L:/Aero-Engine/Aero Engine/out/bin/win64"
 			}
 		],
 		"prefix" : 
@@ -81,7 +81,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
 				"role" : "flags"
 			},
 			{
